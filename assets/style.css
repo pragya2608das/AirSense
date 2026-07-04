@@ -1,0 +1,22 @@
+.main {
+    background-color: #f5f7fb;
+}
+
+.metric-card {
+    border-radius: 12px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+h1, h2, h3 {
+    color: #0f172a;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #0f172a;
+}
+
+section[data-testid="stSidebar"] * {
+    color: pink;
+}
