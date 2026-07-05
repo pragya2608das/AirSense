@@ -5,19 +5,17 @@ from datetime import datetime
 from streamlit_folium import st_folium
 from forecast.forecast import predict_next_aqi
 from utils.map_utils import create_map
-
 from database.database import (
+    create_database,
+    save_air_quality,
+    get_city_history,
     get_latest_city_data,
     get_total_records,
     get_average_aqi,
     get_latest_all_cities
 )
-from api.fetch_data import fetch_air_quality
 
-from database.database import (
-    save_air_quality,
-    get_city_history,
-)
+from api.fetch_data import fetch_air_quality
 
 from data.cities import LOCATIONS
 
@@ -55,7 +53,7 @@ st.set_page_config(
     page_icon="🌍",
     layout="wide"
 )
-
+create_database()
 
 # ---------------------------------------------------------
 # LOAD CSS

@@ -1,7 +1,9 @@
+import os
 import sqlite3
 
-DB_NAME = "database/airsense.db"
+os.makedirs("database", exist_ok=True)
 
+DB_NAME = "database/airsense.db"
 
 def create_database():
     conn = sqlite3.connect(DB_NAME)
