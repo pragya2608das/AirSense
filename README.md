@@ -211,8 +211,8 @@ AirSense transforms live environmental data into actionable insights through an 
 |-----------|----------|
 | ![](screenshots/analytics.png) | ![](screenshots/forecast.png) |
 
-| Alerts | Pollutants |
-|---------|------------|
+| Alerts | 
+|---------|
 | ![](screenshots/alerts.png) | 
 
 # 🔄 Project Workflow
@@ -390,12 +390,16 @@ We welcome ideas, suggestions, and improvements.
 <img src="https://github.com/pragya2608das.png" width="120px"><br>
 <b>Karnean Pragya</b><br>
 Project Developer
+</td>
+
+<td align="center">
 <img src="https://github.com/koina-26.png" width="120px"><br>
 <b>Koina Deb</b><br>
 Project Developer
 </td>
 </tr>
 </table>
+
 # 🙏 Acknowledgements
 
 Special thanks to:
